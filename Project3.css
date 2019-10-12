@@ -1,0 +1,176 @@
+/* top border logo and achors */
+img {
+  width: 300px;
+  margin: 30px 0 30px 20px;
+  display: inline-grid;
+}
+.head-anchor {
+  text-decoration: none;
+  padding: 30px 50px;
+  font-size: 15px;
+  color: #000;
+}
+.anchor {
+  margin: 30px 20px 20px 600px;
+}
+.header {
+  display: flex;
+  background-color: #eee;
+  margin: 0;
+  position: fixed;
+  top: 0px;
+
+
+}
+/* END OF BORDER LOGO AND ANCHORS */
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+.rest-of-the-page {
+  margin-top: 110px;
+}
+/* THIS IS THE FORM SECTION */
+.form-section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.email {
+  width: 300px;
+  height: 27px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.h2-form {
+  font-size: 25px;
+}
+.butn {
+  background: #e3d020;
+  background-image: -webkit-linear-gradient(top, #e3d020, #ebb617);
+  background-image: -moz-linear-gradient(top, #e3d020, #ebb617);
+  background-image: -ms-linear-gradient(top, #e3d020, #ebb617);
+  background-image: -o-linear-gradient(top, #e3d020, #ebb617);
+  background-image: linear-gradient(to bottom, #e3d020, #ebb617);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #000;
+  padding: 12px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #fcc93c;
+  background-image: -webkit-linear-gradient(top, #fcc93c, #e09920);
+  background-image: -moz-linear-gradient(top, #fcc93c, #e09920);
+  background-image: -ms-linear-gradient(top, #fcc93c, #e09920);
+  background-image: -o-linear-gradient(top, #fcc93c, #e09920);
+  background-image: linear-gradient(to bottom, #fcc93c, #e09920);
+  text-decoration: none;
+}
+/* THIS IS THE END OF THE FORM SECTION */
+
+
+/* THIS IS THE BEGINNING OF THE FEATURE SECTION */
+.feature-section {
+  text-align: left;
+  width: 57%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  line-height: 2;
+}
+.fas {
+  font-size: 2.7rem;
+  color: orange;
+  float: left;
+}
+.premium-desc {
+  margin-left: 120px;
+}
+.fast-ship {
+  margin-left: 120px;
+}
+.quality-assur {
+  margin-left: 120px;
+}
+/* THIS IS THE END OF THE FEATURE SECTION */
+
+
+/* THIS IS THE BEGINNING OF THE VIDEO SECTION */
+video {
+  margin-left: 500px;
+  margin-bottom: 90px;
+  width: 40%;
+}
+/* THIS IS THE END OF THE VIDEO SECTION */
+
+
+/* THIS IS THE BEGINNING OF THE PRICING SECTION */
+li {
+  list-style: none;
+  margin-right: 27px;
+}
+.tenor-tromb {
+  border: 1px solid black;
+  width: 300px;
+  height: 350px;
+  margin-right: 30px;
+  text-align: center;
+  line-height: 2;
+
+}
+.bass-tromb {
+  border: 1px solid black;
+  width: 300px;
+  height: 350px;
+  margin-right: 30px;
+  text-align: center;
+  line-height: 2;
+}
+
+.valve-tromb {
+  border: 1px solid black;
+  width: 300px;
+  height: 350px;
+  margin-right: 30px;
+  text-align: center;
+  line-height: 2;
+}
+.Pricing-section {
+  display: flex;
+  margin-left: 280px;
+  margin-bottom: 40px;
+}
+.div {
+  background-color: #d3e3e1;
+  height: 45px;
+  padding-top: 10px;
+}
+/* THIS IS THE END OF THE PRICING SECTION */
+
+
+/* THIS IS THE BEGINNING OF THE FOOTER SECTION */
+footer {
+  background-color: #d3e3e1;
+  height: 80px;
+  text-align: right;
+  text-decoration: none;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  padding: 30px 10px;
+  font-size: 15px;
+  color: #000;
+}
+.foot-comment {
+  color: #444;
+}
+
+/* THIS IS THE END OF THE FOOTER SECTION */

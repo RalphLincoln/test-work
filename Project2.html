@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>A Survey Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/Project2.css">
+</head>
+
+<body>
+
+  <h1>Survey Form</h1>
+
+  <div class="theForm">
+
+    <p>Let us know how we can improve freeCodeCamp</p>
+
+    <form class="center">
+      <table>
+        <tr>
+          <td class="space"><label for="name">Name:</label></td>
+          <td><input type="text" id="name" class="input-field" name="name" placeholder="Enter your name" required></td>
+        </tr>
+        <tr>
+          <td class="space"><label for="email">Email:</label></td>
+          <td><input type="email" id="email" class="input-field" name="email" placeholder="Enter your Email" required></td>
+        </tr>
+        <tr>
+          <td class="space"><label for="age">Age:</label></td>
+          <td><input type="number" class="input-field" name="age" placeholder="Age" value="age" required></td>
+        </tr>
+        <tr>
+          <td><label for="">What option best describe your current role?</label></td>
+          <td>
+            <select class="select-field" name="">
+            <option>Student</option>
+            <option>Full time Job</option>
+            <option>Full time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </td>
+        </tr>
+        <tr>
+          <td id="space" class="space"><legend>How likely is that you would recommend <br> freeCodeCamp to a friend?</legend></td>
+          <td>
+          <li><input type="radio" id="Definitely" name="choice" value=""><label for="Definitely">Definitely</label></li>
+          <li><input type="radio" id="Maybe" name="choice" value=""><label for="Maybe">Maybe</label></li>
+          <li><input type="radio" id="notSure" name="choice" value=""><label for="notSure">Not Sure</label></li>
+        </td>
+        </tr>
+        <tr>
+          <td class="space"><label for="">What do you like most in FCC:</label></td>
+          <td>
+            <select class="select-field" name="">
+            <option>Challenges</option>
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open Source</option>
+          </select>
+        </td>
+        </tr>
+        <tr>
+          <td id="space" class="space"><legend>Things that should be improved in the <br> future <br> (check all that applies):</legend></td>
+          <td>
+          <li><input type="checkbox" id="Front-end Projects" name="choice" value=""><label for="Front-end Projects">Front-end Projects</label></li>
+          <li><input type="checkbox" id="Back-end Projects" name="choice" value=""><label for="Back-end Projects">Back-end Projects</label></li>
+          <li><input type="checkbox" id="Data Visualization" name="choice" value=""><label for="Data Visualization">Data Visualization</label></li>
+          <li><input type="checkbox" id="Challenges" name="choice" value=""><label for="Challenges">Challenges</label></li>
+          <li><input type="checkbox" id="Open Source Community" name="choice" value=""><label for="Open Source Community">Open Source Community</label></li>
+          <li><input type="checkbox" id="Gitter help rooms" name="choice" value=""><label for="Gitter help rooms">Gitter help rooms</label></li>
+          <li><input type="checkbox" id="Videos" name="choice" value=""><label for="Videos">Videos</label></li>
+          <li><input type="checkbox" id="City Meetups" name="choice" value=""><label for="City Meetups">City Meetups</label></li>
+          <li><input type="checkbox" id="Wiki" name="choice" value=""><label for="Wiki">Wiki</label></li>
+          <li><input type="checkbox" id="Forum" name="choice" value=""><label for="Forum">Forum</label></li>
+          <li><input type="checkbox" id="Additional Courses" name="choice" value=""><label for="Additional Courses">Additional Courses</label></li>
+        </td>
+        </tr>
+        <tr>
+          <td class="space"><label for="yourComments">Any Comments or Suggestions?</label></td>
+          <td><textarea name="Comments" id="yourComments"  cols="40" rows="3" placeholder="Enter your comments here......." ></textarea></td>
+        </tr>
+      </table>
+
+
+
+      <li><a class="btn" href="mailto:ialaneme@yahoo.com">Submit</a></li>
+    </form>
+
+
+  </div>
+
+
+
+
+</body>
+
+</html>
